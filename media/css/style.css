@@ -1,0 +1,93 @@
+* {
+margin:0;
+padding:0;
+}
+
+#header{
+background:url('../img/fon.jpg');
+height: 250px;
+}
+
+#header img {
+float: left;
+background:url('../img/log.jpg');
+}
+
+
+#logotext{
+font-variant:small-caps;
+font-style:oblique;
+font-weight:bold;
+float: right;
+color: brown;
+text-shadow: 1px 1px 3px black;
+font-size: 50px;
+padding: 4px 10px 0 0;
+}
+	
+
+	
+.topmenu{
+	display:flex;
+	width:100%;
+	margin:0 auto;
+}
+.topmenu a{
+	flex: 1;
+	font-style:oblique;
+	font-weight:bold;
+	display: block;
+	padding: 10px 0;
+	text-align: center;
+	background: brown;
+	color: white;
+	border-right: solid 1px wight;
+	text-decoration: none;
+	}
+
+.btn btn-success btn-block{
+	background: brown;
+}
+
+.topmenu a:hover{ 
+	background: grey;
+	color: brown;
+		}
+.col-md-8{
+color: brown;
+	}
+.block1{
+  	background: url('../img/block.jpg');
+	height: 300px;
+	
+	}
+.a1{
+	color: brown;
+	font: bold 25px Arial;
+	padding: 500px 10px 0 0;
+	}
+.b1{
+	color: brown;
+	padding: 0 10px 0 0;
+	font-style:oblique;	
+	}		
+		
+		
+		
+		
+		
+		@media screen and (max-wight: 600px){ 
+		.topmenu{
+			flex-direction: column;}
+		}
+		#heаder {
+			 height: 200px;
+			}
+		#footer{
+			padding: 40px 0;
+			text-align: center;
+			background: ;
+		}
+
+
+
