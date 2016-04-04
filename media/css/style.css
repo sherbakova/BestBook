@@ -11,6 +11,8 @@ height: 250px;
 #header img {
 float: left;
 background:url('../img/log.jpg');
+height: 100px;
+
 }
 
 
@@ -44,7 +46,24 @@ padding: 4px 10px 0 0;
 	border-right: solid 1px wight;
 	text-decoration: none;
 	}
+	.leftmenu {
+		padding-top:5px;
+		}
+.leftmenu a {
+	background: brown;
+	font-weight:bold;
+	border-color:brown;
+	font-style:oblique;
+}
+.leftmenu a.focus, .leftmenu a:focus {
+	background: brown;
+	font-weight:bold;
 
+	}
+.leftmenu a:hover{
+	background: grey;
+	color: brown;
+	}
 .btn btn-success btn-block{
 	background: brown;
 }
