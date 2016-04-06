@@ -72,21 +72,54 @@ padding: 4px 10px 0 0;
 	color: brown;
 		}
 .col-md-8{
-color: brown;
-	}
-.block1{
-  	background: url('../img/block.jpg');
-	height: 300px;
+color: brown;}
+	
+	
+.banner1{
+	background-image: url('../img/banner1.jpg');
+	width: 400px;
+	height: 200px;
+    
+			}
+.banner2{
+	background-image: url('../img/banner2.jpg');
+	width: 400px;
+	height: 200px;
+  
 	
 	}
+.banner3{
+	background-image: url('../img/banner3.jpg');
+	width: 400px;
+	height: 200px;
+    
+	
+	}
+	
+	
+	
+	
+	
+	
+
+.bordur{
+  	background: url('../img/block.jpg');
+	height: 300px;
+	margin: 0 0 30px 0; 
+	
+	
+	}
+.bordur2{
+	background: url('../img/.jpg');
+		}
 .a1{
 	color: brown;
 	font: bold 25px Arial;
-	padding: 500px 10px 0 0;
+	padding: 800px 10px 0 30px;
 	}
 .b1{
 	color: brown;
-	padding: 0 10px 0 0;
+	padding: 0 10px 0 30px;
 	font-style:oblique;	
 	}		
 		
